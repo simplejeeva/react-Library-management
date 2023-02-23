@@ -1,0 +1,35 @@
+.poster {
+  width: 100%;
+  object-fit: cover;
+  height: 640px;
+}
+.book-container {
+  width: 340px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 16px;
+}
+.container {
+  width: 340px;
+  height: min-content;
+}
+.navbar {
+  background-color: rgb(67, 67, 223);
+  color: white;
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  justify-content: space-between;
+  align-items: center;
+}
+.inputbox {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 500px;
+  margin: 10px auto;
+}
